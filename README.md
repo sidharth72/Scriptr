@@ -6,8 +6,12 @@ Scriptr is a fine-tuned Gemma 2 2B instruct model designed for generating YouTub
 
 ![Scriptr Script for ML](https://github.com/user-attachments/assets/89809657-ccce-4bdb-8d00-bd4c1f881359)
 
+## Huggingface URL
+
+https://huggingface.co/Sidharthan/gemma2_scripter
 
 ## Features
+
 - Generates YouTube scripts from simple keyword inputs.
 - Supports inference on both CPU and GPU environments.
 
