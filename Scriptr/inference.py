@@ -66,6 +66,6 @@ while True:
     if prompt.lower() == "exit":
         print("Exiting the loop.")
         break
-    response = generate_script(f"""<bos><start_of_turn>keywords\n{prompt}<start_of_turn>script""")
+    response = generate_script(prompt)
     print(f"Generated response: {response}\n")
 
