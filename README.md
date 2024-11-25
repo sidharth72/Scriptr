@@ -32,7 +32,17 @@ Ensure you have Python installed along with the following dependencies:
 ```
 pip install torch bitsandbytes transformers peft accelerate trl
 ```
-3. Run the `inference.py` file:
+
+3. Logging to Huggingface Hub
+  Since, the base model repo is gated, we need to authenticate to hugging face to load the model, so first go to hugging face and start an account if you don't have one, then head over to this link: https://huggingface.co/settings/tokens for grabbing your ACCESS TOKEN. Then on the terminal run,
+
+Note: Make sure you have write and read access to the API keys.
+
+```
+huggingface-cli login --token <YOUR_API_TOKEN>
+```
+
+4. Run the `inference.py` file:
 ```
 python inference.py
 ```
